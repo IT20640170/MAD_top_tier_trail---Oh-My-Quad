@@ -1,12 +1,12 @@
 # Top Tier Trail
 
 
-# MAD project of Oh My Quad
+## MAD project of Oh My Quad
 
 
 
-## Group Name - Oh My Quad
-## Batch - WD_IT_Group_04.01
+## Group Name - ### Oh My Quad
+## Batch - ### WD_IT_Group_04.01
 
 
 #### Group Members
