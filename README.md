@@ -1,7 +1,7 @@
 # Top Tier Trail
 
 
-MAD project of Oh My Quad
+# MAD project of Oh My Quad
 
 
 
