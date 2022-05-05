@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="@drawable/eee"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/beem"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="382dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/allerta"
+        android:hint="@string/tv_title"
+
+        android:text="WHAT'S YOUR PLAN?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/todo_Title"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_title"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:layout_width="379dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/allerta"
+        android:hint="@string/tv_subtitle"
+        android:text="TASK?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/todo_SubTitle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_subtitle"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="383dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/allerta"
+        android:hint="@string/tv_desc"
+        android:text="DESCRIPTION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/outlinedTextField3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Description"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_desc"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="259dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="154dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+
+            android:background="@color/layouts"
+            android:backgroundTint="@color/teal_700"
+            android:text="Task Add"
+            android:layout_marginRight="10dp"
+
+            android:textColor="#000" />
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+
+            android:backgroundTint="#00BCD4"
+            android:text="ToDos"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>
