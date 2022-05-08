@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/white_light_blue"
+    android:background="@drawable/light_purple_gradient"
     android:onClick="hideKeyboard"
     tools:context=".MainActivity">
 
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tv_heading"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photos" />
+        app:srcCompat="@drawable/ic_memories" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tv_sourceLocation"
@@ -173,13 +173,13 @@
     <ImageView
         android:id="@+id/iv_upload"
         android:layout_width="350dp"
-        android:layout_height="178dp"
+        android:layout_height="150dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/upload_icon" />
+        app:srcCompat="@drawable/upload" />
 
     <Button
         android:id="@+id/btn_update"

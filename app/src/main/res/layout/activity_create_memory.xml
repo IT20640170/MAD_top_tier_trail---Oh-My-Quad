@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/white_light_blue"
+    android:background="@drawable/light_purple_gradient"
     android:onClick="hideKeyboard"
     tools:context=".MainActivity">
 
@@ -15,10 +15,11 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/aladin"
         android:hint="@string/tv_heading"
-        android:text="Create a Memory"
+        android:text="Add Memory"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="30sp"
+        android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.396"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,14 +27,13 @@
 
     <ImageView
         android:id="@+id/img_heading"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="13dp"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/tv_heading"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/photos" />
+        app:srcCompat="@drawable/ic_memories" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tv_sourceLocation"
@@ -174,12 +174,12 @@
         android:id="@+id/iv_upload"
         android:layout_width="350dp"
         android:layout_height="178dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/upload_icon" />
+        app:srcCompat="@drawable/upload" />
 
     <Button
         android:id="@+id/btn_update"
@@ -187,10 +187,10 @@
         android:layout_width="171dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/buttons"
-        android:text="@string/btn_upload"
+        android:text="Create"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -203,14 +203,14 @@
         android:layout_width="189dp"
         android:layout_height="56dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:backgroundTint="@color/buttons"
         android:onClick="onClick"
         android:text="@string/btn_cancel"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.578"
         app:layout_constraintStart_toEndOf="@+id/btn_update"
         app:layout_constraintTop_toBottomOf="@+id/iv_upload" />
 

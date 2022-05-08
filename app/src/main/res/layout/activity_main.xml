@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/activity_main"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:paddingBottom="@dimen/activity_vertical_margin"
-android:paddingLeft="@dimen/activity_horizontal_margin"
-android:paddingRight="@dimen/activity_horizontal_margin"
-android:paddingTop="@dimen/activity_vertical_margin"
-tools:context="abhiandroid.com.splashscreen.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/light_blue_gradient">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Hello World by AbhiAndroid!"
-    android:textSize="20sp"
-    android:layout_centerInParent="true"/>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo1" />
+
+    <Button
+
+        android:id="@+id/register_btn"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_btn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#001A66"
+        android:drawableStart="@drawable/ic_register_white"
+        android:drawableLeft="@drawable/ic_register_white"
+        android:minWidth="230dp"
+        android:text="@string/mainRegister" />
+
+    <Button
+
+        android:id="@+id/login_btn"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#001A66"
+        android:drawableStart="@drawable/ic_login_white"
+        android:drawableLeft="@drawable/ic_login_white"
+        android:minWidth="230dp"
+        android:text="@string/mainLogin" />
+
 </RelativeLayout>
