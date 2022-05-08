@@ -11,6 +11,7 @@ import android.widget.TextView;
 import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+//small discription
 
 public class notedetails extends AppCompatActivity {
 
